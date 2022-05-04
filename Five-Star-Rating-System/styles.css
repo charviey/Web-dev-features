@@ -1,0 +1,26 @@
+/* styles.css */
+.stars{
+  display: flex;
+}
+.stars.disabled{
+  pointer-events:none;
+}
+.stars a{
+  opacity: 10%
+  cursor: pointer;
+}
+.stars:hover a{
+  opacity: 100%
+}
+.stars a:hover {
+  opacity: 100%
+}
+
+.stars a:hover ~ a{
+  opacity: 50%;
+}
+
+.stars a.active{
+  opacity: 100%;
+}
+/* Add styles here to customize the appearance of your app */
